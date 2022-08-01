@@ -5,7 +5,7 @@ body {
 }
 
 main {
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
@@ -14,6 +14,7 @@ main {
     background-color: #161616;
     border-radius: 30px;
     border: 1px solid;
+    margin-bottom: 130px;
 }
 
 .columns {
@@ -64,4 +65,42 @@ main {
     left: 801px;
     top: 83px;
     margin-top: 35px;
+}
+
+.left-part {
+    background-color: #161616;
+    width: 312px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    grid-row-gap: 2px;
+    justify-content: space-evenly;
+}
+
+.Option1 {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 252px;
+    height: 15%;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.Option2 {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 252px;
+    height: 15%;
+    padding-bottom: 10px;
+}
+
+.Option3 {
+    background-color: #DD0000;
+    width: 252px;
+    height: 15%;
+    border-radius: 10px;
+    padding-bottom: 10px;
 }
