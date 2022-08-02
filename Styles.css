@@ -27,6 +27,7 @@ main {
 
 .col-1 {
     margin-left: 106px;
+
 }
 
 .big-text {
@@ -78,11 +79,10 @@ main {
 .left-part {
 
     background-color: #161616;
-    width: 80%%;
+    width: 80%;
     height: 40%;
     margin-left: 3%;
     padding: 3%;
-    padding-bottom: 2%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@ main {
     border-radius: 10px;
     width: 252px;
     height: 15%;
-    padding-bottom: 15px;
+    padding-bottom: 10%;
 }
 
 .Option2 {
@@ -105,7 +105,7 @@ main {
     border-radius: 10px;
     width: 252px;
     height: 15%;
-    padding-bottom: 10px;
+    padding-bottom: 10%;
 }
 
 .Option3 {
@@ -113,7 +113,7 @@ main {
     width: 252px;
     height: 15%;
     border-radius: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 10%;
 }
 
 .blogs {
@@ -171,8 +171,4 @@ main {
 
 .footer2 {
     display: flex;
-}
-
-.last-part {
-    margin-bottom: 5%;
 }
