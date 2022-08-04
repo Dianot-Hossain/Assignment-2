@@ -97,7 +97,13 @@ main {
     border-radius: 10px;
     width: 252px;
     height: 15%;
-    padding-bottom: 10%;
+}
+
+.One {
+    text-decoration: none;
+    color: #161616;
+    font-weight: 700;
+    font-size: 25px;
 }
 
 .Option2 {
@@ -105,7 +111,17 @@ main {
     border-radius: 10px;
     width: 252px;
     height: 15%;
-    padding-bottom: 10%;
+
+
+}
+
+.two {
+    text-decoration: none;
+    color: #161616;
+    font-weight: 700;
+    font-size: 25px;
+
+
 }
 
 .Option3 {
@@ -113,7 +129,13 @@ main {
     width: 252px;
     height: 15%;
     border-radius: 10px;
-    padding-bottom: 10%;
+}
+
+.Three {
+    text-decoration: none;
+    color: #161616;
+    font-weight: 700;
+    font-size: 25px;
 }
 
 .blogs {
@@ -171,4 +193,10 @@ main {
 
 .footer2 {
     display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 70%;
+    color: rgba(94, 94, 94, 0.238);
 }
