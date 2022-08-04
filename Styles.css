@@ -17,6 +17,7 @@ main {
     height: 80%;
 }
 
+
 .columns {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -39,6 +40,7 @@ main {
 .small-text {
     color: #FFFFFF;
     font-size: 16px;
+    overflow: hidden;
 }
 
 .live-button {
@@ -53,6 +55,15 @@ main {
 .button {
     color: #FFFFFF;
     text-decoration: none;
+    transition: width 3s, height 3s, transform 3s;
+}
+
+.live-button {
+    transition: transform 2s;
+}
+
+.live-button:hover {
+    transform: rotate(360deg);
 }
 
 .fa-circle-right {
@@ -96,7 +107,7 @@ main {
     background-color: #FFFFFF;
     border-radius: 10px;
     width: 252px;
-    height: 15%;
+
 }
 
 .One {
@@ -110,7 +121,7 @@ main {
     background-color: #FFFFFF;
     border-radius: 10px;
     width: 252px;
-    height: 15%;
+
 
 
 }
@@ -127,7 +138,6 @@ main {
 .Option3 {
     background-color: #DD0000;
     width: 252px;
-    height: 15%;
     border-radius: 10px;
 }
 
@@ -187,16 +197,82 @@ main {
 .second {
     color: #FFFFFF;
     font: size 15px;
-    margin-left: 8%;
+    margin-left: 4%;
     gap: 10%;
 }
 
 .footer2 {
+    width: 100%;
     display: flex;
     justify-content: center;
+    margin-left: 0%;
 }
 
 hr {
     width: 70%;
     color: rgba(94, 94, 94, 0.238);
 }
+
+
+
+/* Media Queries */
+/* -------------------- */
+/* Mobile Device */
+
+@media screen and (max-width: 600px) {
+    main {
+        align-items: center;
+        margin-right: 0%;
+    }
+
+
+    .total-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 15px;
+    }
+
+    .footer2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .columns {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+
+    }
+
+    .big-text {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .left-part {
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        background-color: #FFFFFF;
+    }
+
+    .col-1 {
+        margin: 0px 20px;
+    }
+
+    .total-part {
+        gap: 2%;
+    }
+
+    .text {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
